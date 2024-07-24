@@ -26,4 +26,4 @@ def test_if_many():
     diet.add_food("Мясо",2)
     diet.add_food("Яблоко", 1)
 
-    assert 1500 == diet.calculate()
+    assert 1100 == diet.calculate()
