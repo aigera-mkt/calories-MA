@@ -13,7 +13,7 @@ class SmartDiet:
         self.food[name]=calories
 
     def add_food (self,name,amount):
-        self.total_calories += self.food[name]*amount
+        self.total_calories += self.food['name']*amount
 
     def calculate(self):
         return self.total_calories
